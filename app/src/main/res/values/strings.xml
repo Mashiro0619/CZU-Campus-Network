@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CZUnet</string>
+    <string-array name="isp_array">
+        <item>校园网</item>
+        <item>中国移动</item>
+        <item>中国联通</item>
+        <item>中国电信</item>
+    </string-array>
+
+</resources>

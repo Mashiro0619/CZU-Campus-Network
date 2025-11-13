@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:padding="24dp"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="学号"
+        android:inputType="text"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/pass"
+        android:hint="密码"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Spinner
+        android:id="@+id/isp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/isp_array"/>
+
+    <Button
+        android:id="@+id/save"
+        android:text="保存并登录"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:autoLink="all"
+        android:text="如有问题请在github:https://github.com/Mashiro0619/CZU-Campus-Network\n或qq2393502069反馈"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:autoLink="all"
+        android:text="学号密码运营商输入或选择错误，清除应用数据即可重新输入"></TextView>
+</LinearLayout>
